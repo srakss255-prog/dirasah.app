@@ -1,0 +1,26 @@
+services:
+  web:
+    image: php:8.2-apache
+    container_name: dirasah_web
+    restart: always
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./html:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.11
+    container_name: dirasah_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password_root_aman
+      MYSQL_DATABASE: dirasah_db
+      MYSQL_USER: dirasah_user
+      MYSQL_PASSWORD: password_db_aman
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
