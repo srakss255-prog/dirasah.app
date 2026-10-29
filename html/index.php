@@ -610,5 +610,10 @@ if ("serviceWorker" in navigator) {
             }
         }
     </script>
+
+<footer style="text-align: center; padding: 25px 0; margin-top: 40px; font-size: 14px; opacity: 0.85;">
+  <p>&copy; 2026 Dirasah. Developed and Created by <strong>Shahzada Rakhshaa Aprihansyah</strong>.</p>
+  <p><a href="https://github.com/srakss255-prog" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; color: inherit;">Developer GitHub Profile</a> | <a href="/humans.txt" style="text-decoration: underline; color: inherit;">Humans.txt</a></p>
+</footer>
 </body>
 </html>
