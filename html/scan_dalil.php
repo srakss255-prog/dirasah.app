@@ -57,6 +57,22 @@ if ("serviceWorker" in navigator) {
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Dirasah">
 <link rel="apple-touch-icon" href="/assets/img/icon-192.png">
+
+<meta name="author" content="Shahzada Rakhshaa Aprihansyah">
+<meta name="creator" content="Shahzada Rakhshaa Aprihansyah">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Dirasah",
+  "url": "https://dirasah.my.id",
+  "creator": {
+    "@type": "Person",
+    "name": "Shahzada Rakhshaa Aprihansyah",
+    "url": "https://github.com/srakss255-prog"
+  }
+}
+</script>
 </head>
 <body class="bg-[#f8fafc] text-slate-900 antialiased min-h-screen flex">
 

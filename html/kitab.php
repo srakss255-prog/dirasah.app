@@ -121,6 +121,22 @@ $logo_v   = file_exists('assets/dirasah.png') ? filemtime('assets/dirasah.png') 
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Dirasah">
 <link rel="apple-touch-icon" href="/assets/img/icon-192.png">
+
+<meta name="author" content="Shahzada Rakhshaa Aprihansyah">
+<meta name="creator" content="Shahzada Rakhshaa Aprihansyah">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Dirasah",
+  "url": "https://dirasah.my.id",
+  "creator": {
+    "@type": "Person",
+    "name": "Shahzada Rakhshaa Aprihansyah",
+    "url": "https://github.com/srakss255-prog"
+  }
+}
+</script>
 </head>
 <body class="bg-[#f8fafc] text-slate-900 antialiased selection:bg-blue-100 selection:text-blue-900 min-h-screen flex font-normal">
 
